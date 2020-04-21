@@ -51,11 +51,11 @@ if(${QT_TARGET_TYPE} STREQUAL "STATIC_LIBRARY")
   qt_generate_qml_plugin_import(QQuickStaticHelloWorld
     QML_SRC ${CMAKE_CURRENT_SOURCE_DIR}/qml
     EXTRA_PLUGIN
-      QtQuickVirtualKeyboardPlugin
-      QtQuickVirtualKeyboardSettingsPlugin
-      QtQuickVirtualKeyboardStylesPlugin
-      QmlFolderListModelPlugin
-      QQuickLayoutsPlugin
+    qtquickvirtualkeyboardplugin
+    qtquickvirtualkeyboardsettingsplugin
+    qtquickvirtualkeyboardstylesplugin
+    qmlfolderlistmodelplugin
+    qquicklayoutsplugin
     VERBOSE
   )
 
